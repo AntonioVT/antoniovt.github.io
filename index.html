@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Tony Vargas</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Josefin+Sans" rel="stylesheet" />
+    <style>
+        @keyframes bgcolor {
+            0% {
+                background-color: #e53935;
+            }
+
+            18% {
+                background-color: #8e24aa;
+            }
+
+            33% {
+                background-color: #1e88e5;
+            }
+
+            50% {
+                background-color: #43a047;
+            }
+
+            63% {
+                background-color: #fdd835;
+            }
+
+            78% {
+                background-color: #fb8c00;
+            }
+
+            100% {
+                background-color: #e53935;
+            }
+        }
+
+        html,
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            font-weight: normal;
+            color: #fff;
+        }
+
+        body {
+            -webkit-animation: bgcolor 20s linear infinite both;;
+            animation: bgcolor 10s linear infinite both;;
+            -webkit-animation-direction: normal;
+            animation-direction: normal;
+        }
+
+        @media (min-width: 576px) {
+            html {
+                font-size: 14px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            html {
+                font-size: 16px;
+            }
+        }
+
+        @media (min-width: 992px) {
+            html {
+                font-size: 18px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            html {
+                font-size: 20px;
+            }
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            justify-content: center;
+            padding: 0 30px;
+            text-align: center;
+        }
+
+        .intro {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 4em;
+            font-weight: 600;
+        }
+
+        .tagline {
+            font-size: 1.5rem;
+            margin: 1.5rem 0;
+            font-weight: 100;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="intro">Hello, I'm Tony!</div>
+        <div class="tagline">
+            Software engineer @Monterrey, MX.
+        </div>
+    </div>
+</body>
+
+</html>
